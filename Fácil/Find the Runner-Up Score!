@@ -1,0 +1,18 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+
+    ranking = []
+
+    for i in arr:
+        ranking.append(i)
+
+    ranking.sort()
+
+    maior_valor = ranking[-1]
+
+    for j in ranking:
+        if j < maior_valor:
+            valor_certo = j
+
+    print(valor_certo)
