@@ -15,14 +15,14 @@ Criar um registro público da evolução e disciplina como desenvolvedor.
 
 As soluções serão organizadas por nível de dificuldade. Mais do que apenas o código final, eu tento registrar aqui os principais conceitos que aprendi em cada desafio.
 
-Fácil
+🟢 Fácil
 
 Problemas de nível fácil são excelentes para solidificar a sintaxe e as funções básicas da linguagem.
 
-Médio
+🟡 Médio
 
 Aqui é onde os desafios começam a exigir um melhor design de algoritmos e conhecimento de estruturas de dados mais complexas.
 
-Difícil
+🔴 Difícil
 
 Problemas complexos que exigem algoritmos avançados, estruturas de dados otimizadas ou *insights* matemáticos profundos.
