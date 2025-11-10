@@ -1,0 +1,29 @@
+if __name__ == '__main__':
+
+    students = []
+    grade = []
+
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        students.append([name, score])
+
+    for i in students:
+        grade.append(i[1])
+    
+    notas_unicas = set(grade)
+    notas_unicas = list(notas_unicas)
+
+    notas_unicas.sort()
+
+    segundo_lugar = notas_unicas[1]
+    vices_notas = []
+    
+    for j in students:
+        if j[1] == segundo_lugar:
+            vices_notas.append(j[0])
+
+    vices_notas.sort()
+
+    for nomes in vices_notas:
+        print(nomes)
